@@ -76,5 +76,6 @@ and the artwork details using the T5-Flan model.
 
 ![Results from model](./art-critiq.png)
 
-#### Note: Please note that the full training data is not provided in the repo and only a few samples of how the data looked like has been given in the `data` folder. Also, fully fine-tuned models are not provided for public access due to legal puposes.
+#### Note: 
+Please note that the full training data is not provided in the repo and only a few samples of how the data looked like has been given in the `data` folder. Also, fully fine-tuned models are not provided for public access due to legal puposes.
 
