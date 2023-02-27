@@ -69,6 +69,10 @@ res = requests.post("http://0.0.0.0:8080/generate_review",
 print(res.json())
 ```
 
+### Results:
+
+![Results from model](./art-critiq.png)
+
 The API will return a JSON object with either the review as specified in `review_type` input parameter or all the three
 reviews if `review_type` parameter is not specified. It is generated using the caption from the image captioning model
 and the
