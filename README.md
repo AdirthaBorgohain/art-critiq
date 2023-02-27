@@ -59,12 +59,11 @@ import requests
 
 res = requests.post("http://0.0.0.0:8080/generate_review",
                     json={
-                        "url": "https://openaccess-cdn.clevelandart.org/1946.83/1946.83_web.jpg",
-                        "artist": "Edgar Degas (French, 1834–1917)",
-                        "title": "Frieze of Dancers",
+                        "url": "https://openaccess-cdn.clevelandart.org/1942.645/1942.645_web.jpg",
+                        "artist": "Joshua Reynolds (British, 1723–1792)",
+                        "title": "Portrait of the Ladies Amabel and Mary Jemima Yorke",
                         "type": "Painting",
-                        "technique": "oil on fabric",
-                        "review_type": "harsh"
+                        "technique": "Oil on canvas",
                     })
 print(res.json())
 ```
