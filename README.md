@@ -68,12 +68,13 @@ res = requests.post("http://0.0.0.0:8080/generate_review",
 print(res.json())
 ```
 
+The API will return a JSON object with either the review as specified in `review_type` input parameter or all the three
+reviews if `review_type` parameter is not specified. It is generated using the caption from the image captioning model
+and the artwork details using the T5-Flan model.
+
 ### Results:
 
 ![Results from model](./art-critiq.png)
 
-The API will return a JSON object with either the review as specified in `review_type` input parameter or all the three
-reviews if `review_type` parameter is not specified. It is generated using the caption from the image captioning model
-and the
-artwork details using the T5-Flan model.
+#### Note: Please note that the full training data is not provided in the repo and only a few samples of how the data looked like has been given in the `data` folder. Also, fully fine-tuned models are not provided for public access due to legal puposes.
 
